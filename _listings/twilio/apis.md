@@ -41,7 +41,7 @@ apis:
   tags: Phone Numbers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-availablephonenumbers-isocountrycode-tollfree-format-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-incomingphonenumbers-local-format-get.md
 x-common:
 - type: x-net-library
   url: https://www.twilio.com/docs/csharp/install

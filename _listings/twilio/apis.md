@@ -25,9 +25,9 @@ tags:
 - Messaging
 - Getting Started
 - API LIfeycle
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/phone-numbers/master/_listings/twilio/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Twilio
@@ -41,7 +41,7 @@ apis:
   tags: Phone Numbers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/phone-numbers/master/_listings/twilio/accounts-accountsid-incomingphonenumbers-incomingphonenumbersid-format-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-availablephonenumbers-isocountrycode-local-format-get.md
 x-common:
 - type: x-net-library
   url: https://www.twilio.com/docs/csharp/install

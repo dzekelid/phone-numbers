@@ -42,7 +42,7 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-incomingphonenumbers-incomingphonenumbersid-format-put.md
-- name: Twilio Add Incoming Phone Number
+- name: Twilio Update Incoming Phone Number
   description: Tries to update the incoming phone numbers properties, and returns
     thenupdated resource representation if successful. The returned response isnidentical
     to that returned above when making a GET request.n
@@ -52,9 +52,9 @@ apis:
   tags: Phone Numbers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-incomingphonenumbers-incomingphonenumbersid-format-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-incomingphonenumbers-incomingphonenumbersid-format-put.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-incomingphonenumbers-incomingphonenumbersid-format-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-incomingphonenumbers-incomingphonenumbersid-format-put-postman.md
 x-common:
 - type: x-net-library
   url: https://www.twilio.com/docs/csharp/install

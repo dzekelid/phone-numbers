@@ -42,19 +42,20 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-incomingphonenumbers-incomingphonenumbersid-format-put.md
-- name: Twilio Add Incoming Local Phone Numbers
-  description: Adds a new phone number to your account. If a phone number is found
-    for your request, Twilio will add it to your account and bill you for the first
-    months cost of the phone number.
+- name: Twilio Get Incoming Phone Numbers
+  description: Returns a list of local <IncomingPhoneNumber> elements, each representing
+    a mobile phone number given to your account, under an <IncomingPhoneNumbers> list
+    element that includes paging information. Works exactly the same as the IncomingPhoneNumber
+    resource, but filters out local and toll free numbers.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Phone Numbers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-incomingphonenumbers-local-format-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-incomingphonenumbers-mobile-format-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-incomingphonenumbers-local-format-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-incomingphonenumbers-mobile-format-get-postman.md
 x-common:
 - type: x-net-library
   url: https://www.twilio.com/docs/csharp/install

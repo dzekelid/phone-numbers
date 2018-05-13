@@ -1,12 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Twilio
-  description: Twilio is a cloud communications Infrastructure as a Service(IaaS)
-    company based in San Francisco, California. Twilio allows software developers
-    to programmatically make and receive phone calls and send and receive text messages
-    using its web service APIs. Twilio's services are accessed over HTTP and are billed
-    based on usage.
+  title: Twilio Get Incoming Local Phone Numbers
+  description: Returns a list of local <IncomingPhoneNumber> elements, each representing
+    a local (not toll-free) phone number given to your account, under an <IncomingPhoneNumbers>
+    list element that includes paging information. Works exactly the same as the IncomingPhoneNumber
+    resource, but filters out toll-free numbers.
   termsOfService: https://www.twilio.com/legal/tos
   version: v1
 host: api.twilio.com

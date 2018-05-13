@@ -1,12 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Twilio
-  description: Twilio is a cloud communications Infrastructure as a Service(IaaS)
-    company based in San Francisco, California. Twilio allows software developers
-    to programmatically make and receive phone calls and send and receive text messages
-    using its web service APIs. Twilio's services are accessed over HTTP and are billed
-    based on usage.
+  title: Twilio Add Incoming Phone Number
+  description: Tries to update the incoming phone numbers properties, and returns
+    thenupdated resource representation if successful. The returned response isnidentical
+    to that returned above when making a GET request.n
   termsOfService: https://www.twilio.com/legal/tos
   version: v1
 host: api.twilio.com

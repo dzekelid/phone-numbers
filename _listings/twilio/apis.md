@@ -42,20 +42,20 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-incomingphonenumbers-incomingphonenumbersid-format-put.md
-- name: Twilio Get Available Toll Free Phone Numbers
-  description: Returns a list of toll-free AvailablePhoneNumber elements that match
-    thenspecified filters, each representing a phone number that is currentlynavailable
-    for provisioning within your account. To provision an availablenphone number,
-    POST the number to the IncomingPhoneNumbers resource.n
+- name: Twilio Get Incoming Local Phone Numbers
+  description: Returns a list of local <IncomingPhoneNumber> elements, each representing
+    a local (not toll-free) phone number given to your account, under an <IncomingPhoneNumbers>
+    list element that includes paging information. Works exactly the same as the IncomingPhoneNumber
+    resource, but filters out toll-free numbers.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Phone Numbers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-availablephonenumbers-isocountrycode-tollfree-format-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-incomingphonenumbers-local-format-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-availablephonenumbers-isocountrycode-tollfree-format-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-incomingphonenumbers-local-format-get-postman.md
 x-common:
 - type: x-net-library
   url: https://www.twilio.com/docs/csharp/install

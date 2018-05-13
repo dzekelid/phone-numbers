@@ -42,21 +42,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-incomingphonenumbers-incomingphonenumbersid-format-put.md
-- name: Twilio Delete Incoming Phone Number
-  description: Release this phone number from your account. Twilio will no longer
-    answerncalls to this number, and you will stop being billed the monthly phonennumber
-    fee. The phone number will eventually be recycled and potentiallyngiven to another
-    customer, so use with care. If you make a mistake, contacnus. We may be able to
-    give you the number back.n
+- name: Twilio Get Incoming Phone Number
+  description: Get info about incoming calls phone number.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Phone Numbers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-incomingphonenumbers-incomingphonenumbersid-format-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-incomingphonenumbers-incomingphonenumbersid-format-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-incomingphonenumbers-incomingphonenumbersid-format-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-incomingphonenumbers-incomingphonenumbersid-format-get-postman.md
 x-common:
 - type: x-net-library
   url: https://www.twilio.com/docs/csharp/install

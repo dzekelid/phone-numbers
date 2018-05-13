@@ -42,19 +42,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-incomingphonenumbers-incomingphonenumbersid-format-put.md
-- name: Twilio Get Available Local Phone Numbers
-  description: Returns a list of local AvailablePhoneNumber resource representationsnthat
-    match the specified filters, each representing a phone number thanis currently
-    available for provisioning within your account.n
+- name: Twilio Get Available Mobile Phone Numbers
+  description: Returns a list of mobile AvailablePhoneNumber resource representations
+    that match the specified filters, each representing a phone number that is currently
+    available for provisioning within your account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Phone Numbers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-availablephonenumbers-isocountrycode-local-format-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-availablephonenumbers-isocountrycode-mobile-format-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-availablephonenumbers-isocountrycode-local-format-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phone-numbers/master/_listings/twilio/accounts-accountsid-availablephonenumbers-isocountrycode-mobile-format-get-postman.md
 x-common:
 - type: x-net-library
   url: https://www.twilio.com/docs/csharp/install
